@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/FWtXHxq/Rectangle-1-1.jpg",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "author": "John Doe",
+    "author_img": "https://i.ibb.co/N3dz7zw/Ellipse-1.png",
+    "posted_date": "2024-03-20",
+    "reading_time": 10,
+    "hashtags": ["technology", "programming", "webdev"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/FWtXHxq/Rectangle-1-1.jpg",
+    "title": "Consectetur Adipiscing Elit",
+    "author": "Jane Smith",
+    "author_img": "https://i.ibb.co/HtyBYkP/Ellipse-2.png",
+    "posted_date": "2024-03-19",
+    "reading_time": 8,
+    "hashtags": ["science", "research"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/VmnvGVL/Rectangle-3.png",
+    "title": "Sed Do Eiusmod Tempor Incididunt",
+    "author": "Alice Johnson",
+    "author_img": "https://i.ibb.co/WfwWvQL/Ellipse-3.png",
+    "posted_date": "2024-03-18",
+    "reading_time": 12,
+    "hashtags": ["health", "fitness"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/FJf9kdh/Rectengle-4.jpg",
+    "title": "Ut Labore Et Dolore Magna Aliqua",
+    "author": "David Brown",
+    "author_img": "https://i.ibb.co/WfwWvQL/Ellipse-3.png",
+    "posted_date": "2024-03-17",
+    "reading_time": 15,
+    "hashtags": ["business", "finance"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co/0ZDWS74/Rectengle-5.jpg",
+    "title": "Excepteur Sint Occaecat Cupidatat Non Proident",
+    "author": "Emily Wilson",
+    "author_img": "https://i.ibb.co/WfwWvQL/Ellipse-3.png",
+    "posted_date": "2024-03-16",
+    "reading_time": 20,
+    "hashtags": ["food", "cooking"]
+  }
+]
