@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "cover": "https://i.ibb.co/FWtXHxq/Rectangle-1-1.jpg",
+    "cover": "https://i.ibb.co/rtmQ2qz/Rectangle-1.png",
     "title": "Consectetur Adipiscing Elit",
     "author": "Jane Smith",
     "author_img": "https://i.ibb.co/HtyBYkP/Ellipse-2.png",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "cover": "https://i.ibb.co/FJf9kdh/Rectengle-4.jpg",
+    "cover": "https://i.ibb.co/7Y9Ys28/Rectengle-5-2.jpg",
     "title": "Ut Labore Et Dolore Magna Aliqua",
     "author": "David Brown",
     "author_img": "https://i.ibb.co/WfwWvQL/Ellipse-3.png",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "cover": "https://i.ibb.co/0ZDWS74/Rectengle-5.jpg",
+    "cover": "https://i.ibb.co/7Y9Ys28/Rectengle-5-2.jpg",
     "title": "Excepteur Sint Occaecat Cupidatat Non Proident",
     "author": "Emily Wilson",
     "author_img": "https://i.ibb.co/WfwWvQL/Ellipse-3.png",
