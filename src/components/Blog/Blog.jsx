@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import { FaBookmark } from "react-icons/fa";
-const Blog = ({blog}) => {
-    const {title, cover,author,author_img,posted_date, reading_time,hashtags} = blog
+const Blog = ({blog,handleAddBookmarks,handleReadingTime}) => {
+    const {id, title, cover,author,author_img,posted_date, reading_time,hashtags} = blog
     return (
-        <div className='mb-20'>
+        <div className='mb-20 space-y-4'>
             <img className='w-full mb-8' src={cover} alt={`cover picture of the title ${title}`} />
             <div className='flex justify-between'>
                 <div className='flex'>
@@ -15,19 +15,27 @@ const Blog = ({blog}) => {
                 </div>
                 <div>
                     <span>{reading_time} min read</span>
-                    <button className='ml-2 text-red-600'><FaBookmark></FaBookmark></button>
+                    <button onClick={() => handleAddBookmarks(blog)} className='ml-2 text-red-600'><FaBookmark></FaBookmark></button>
                 </div>
             </div>
             <h2 className="text-4xl mt-5">{title}</h2>
+            <p>
             {
-                hashtags.map(hash => <span key={blog.id}><a href="">#{hash}</a></span>)
+                hashtags.map((hash,idx) => <span key={idx}><a href="">#{hash}</a></span>)
             }
+            </p>
+            <button 
+            onClick={() => handleReadingTime(id, reading_time)}
+            className='text-purple-800 font-bold underline'
+            >Mark As Read</button>
         </div>
     );
 };
 
 Blog.propTypes ={
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleAddBookmarks: PropTypes.func,
+    handleReadingTime: PropTypes.number
 }
 
 export default Blog;
